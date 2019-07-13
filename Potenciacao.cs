@@ -2,22 +2,22 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace LibraryCalc17.Operacoes
+namespace LibraryCalc17
 {
     /// <summary>
-    /// Realiza a soma de dois numeros.
+    /// Realiza o cálculo de potenciação.
     /// </summary>
-    public class Soma : IOperacao
+    public class Potenciacao : IOperacao
     {
         /// <summary>
-        /// Retorna um Double que representa a soma de A e B.
+        /// Retorna um Double que representa A elevado a B.
         /// </summary>
         /// <param name="a">Valor decimal.</param>
         /// <param name="b">Valor decimal.</param>
         /// <returns>Double: resultado.</returns>
         public double Calcula(double a, double b)
         {
-            return a + b;
+            return Math.Pow(a, b);
         }
     }
 }

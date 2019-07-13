@@ -2,22 +2,22 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace LibraryCalc17.Operacoes
+namespace LibraryCalc17
 {
     /// <summary>
-    /// Realiza a operação de subtração entre dois numeros.
+    /// Realiza a operação de multiplicação entre dois numeros.
     /// </summary>
-    public class Subtracao : IOperacao
+    public class Multiplicacao : IOperacao
     {
         /// <summary>
-        /// Retorna um Double que representa a subtração de A por B.
+        /// Retorna um Double que representa a multiplicação de A por B.
         /// </summary>
         /// <param name="a">Valor decimal.</param>
         /// <param name="b">Valor decimal.</param>
         /// <returns>Double: resultado.</returns>
         public double Calcula(double a, double b)
         {
-            return a - b;
+            return a * b;
         }
     }
 }

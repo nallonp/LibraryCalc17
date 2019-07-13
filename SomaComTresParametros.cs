@@ -2,22 +2,22 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace LibraryCalc17.Operacoes
-{
+namespace LibraryCalc17 { 
     /// <summary>
-    /// Realiza a operação de multiplicação entre dois numeros.
+    /// Realiza a operação de soma entre três numeros.
     /// </summary>
-    public class Multiplicacao : IOperacao
+    public class SomaComTresParametros
     {
         /// <summary>
-        /// Retorna um Double que representa a multiplicação de A por B.
+        /// Retorna um Double que representa a soma de três termos.
         /// </summary>
         /// <param name="a">Valor decimal.</param>
         /// <param name="b">Valor decimal.</param>
+        /// <param name="c">Valor decimal.</param>
         /// <returns>Double: resultado.</returns>
-        public double Calcula(double a, double b)
+        public double Calcula(Double a, Double b, Double c)
         {
-            return a * b;
+            return a + b + c;
         }
     }
 }

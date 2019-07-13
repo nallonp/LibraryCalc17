@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace LibraryCalc17.Operacoes
+namespace LibraryCalc17
 {
     /// <summary>
     /// Provê uma interface para operações de uma calculadora.
